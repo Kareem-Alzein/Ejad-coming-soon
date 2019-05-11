@@ -98,6 +98,10 @@
 linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
 url('images/coming-soon.jpg');
 }
+h4 {
+	padding:38px;
+	float: right;
+}
 
 @media (min-width: 576px) {
 	.container { max-width: 540px; }
