@@ -97,10 +97,10 @@
 	background-image:
 linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
 url('images/coming-soon.jpg');
+background-repeat: no-repeat;
 }
 h4 {
 	padding:38px;
-	float: right;
 }
 
 @media (min-width: 576px) {
@@ -9531,7 +9531,7 @@ ul.tab-nav li a i {
 .testimonials-grid li {
 	float: left;
 	position: relative;
-	width: 20%;
+	width: 14%;
 	padding: 20px 0;
 	-webkit-backface-visibility: hidden;
 }
@@ -9580,7 +9580,6 @@ body:not(.device-touch) .clients-grid li a {
 	height: 100%;
 	top: 0;
 	left: -1px;
-	border-left: 1px dashed #DDD;
 }
 
 .clients-grid li:after,
@@ -9590,7 +9589,7 @@ body:not(.device-touch) .clients-grid li a {
 	top: auto;
 	left: 0;
 	bottom: -1px;
-	border-bottom: 1px dashed #DDD;
+	
 }
 
 
@@ -11282,7 +11281,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 /* Heading Block - with Subtitle
 -----------------------------------------------------------------*/
 
-.heading-block { margin-bottom: 50px; }
+.heading-block { margin-bottom: 15px; }
 
 .heading-block h1,
 .heading-block h2,

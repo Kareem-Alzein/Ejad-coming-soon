@@ -1640,7 +1640,7 @@
 
 	.clients-grid:not(.grid-3):not(.grid-2) li,
 	.clients-grid.grid-4 li,
-	.clients-grid.grid-6 li { width: 50%; }
+	.clients-grid.grid-6 li { width: 10%; }
 
 	.button.button-full { font-size: 16px; }
 
